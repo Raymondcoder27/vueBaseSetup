@@ -10,6 +10,24 @@
     label: String
     icon: String
   }
+
+  const sideMenu:Ref<Array<SideMenuLink>> = ref([
+    {
+      name:"dashboard",
+      label: "Dashboard",
+      icon: "fas-solid fa-tachometer-alt"
+    },
+    {
+      name: "users",
+      label: "Users",
+      icon: "fas-solid fa-users"
+    },
+    {
+      name: "settings",
+      label: "Settings",
+      icon: "fas-solid fa-cog"
+    }
+  ])
 </script>
 
 <template>
