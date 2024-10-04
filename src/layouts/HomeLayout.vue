@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-
-const message = ref<string>('Welcome to HomeLayout!');
+import AppNotification from "@/components/AppNotification.vue"
+import AppHeader from '@/components/AppHeader.vue';
+import SideMenu from '@/components/SideMenu.vue';
 </script>
 
 <template>
