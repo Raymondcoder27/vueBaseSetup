@@ -15,17 +15,17 @@
     {
       name:"dashboard",
       label: "Dashboard",
-      icon: "fas-solid fa-tachometer-alt"
+      icon: "fa-solid fa-tachometer-alt"
     },
     {
       name: "users",
       label: "Users",
-      icon: "fas-solid fa-users"
+      icon: "fa-solid fa-users"
     },
     {
       name: "settings",
       label: "Settings",
-      icon: "fas-solid fa-cog"
+      icon: "fa-solid fa-cog"
     }
   ])
 
