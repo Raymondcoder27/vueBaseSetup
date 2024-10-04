@@ -32,6 +32,10 @@
   function isRouteActive(routeName:string){
     return route.name === routeName;
   }
+
+  function navigate(routeName:string){
+    router.push({name: routeName})
+  }
 </script>
 
 <template>
