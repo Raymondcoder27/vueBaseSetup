@@ -10,6 +10,7 @@ import SideMenu from '@/components/SideMenu.vue';
             <AppHeader />
             <main class="flex flex-col h-full w-full bg-gray-100">
                 <div class="flex flex-row h-full">
+                    <SideMenu class="pt-5" />
                     <div class="flex flex-col flex-grow rounded p-2">
                         <div class="relative overflow-y-auto w-full flex-grow"></div>
                     </div>
