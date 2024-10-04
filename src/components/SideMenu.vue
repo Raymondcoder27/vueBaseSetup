@@ -1,6 +1,15 @@
 <script setup lang="ts">
+  import {ref, type Ref} from 'vue';
+  import {useRoute} from 'vue-router';
+  import router from '@/router';
 
+  const route = useRoute();
 
+  type SideMenuLink = {
+    name: String
+    label: String
+    icon: String
+  }
 </script>
 
 <template>
