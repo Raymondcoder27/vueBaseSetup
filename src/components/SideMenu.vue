@@ -28,6 +28,10 @@
       icon: "fas-solid fa-cog"
     }
   ])
+
+  function isRouteActive(routeName:string){
+    return route.name === routeName;
+  }
 </script>
 
 <template>
