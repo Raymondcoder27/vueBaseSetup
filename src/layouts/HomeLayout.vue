@@ -12,10 +12,13 @@ import SideMenu from '@/components/SideMenu.vue';
                 <div class="flex flex-row h-full">
                     <SideMenu class="pt-5" />
                     <div class="flex flex-col flex-grow rounded p-2">
-                        <div class="relative overflow-y-auto w-full flex-grow"></div>
+                        <div class="relative overflow-y-auto w-full flex-grow">
+                            <RouterView />
+                        </div>
                     </div>
                 </div>
             </main>
+            <AppNotification />
         </div>
     </div>
 </template>
