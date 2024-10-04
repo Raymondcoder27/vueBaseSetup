@@ -6,9 +6,9 @@
   const route = useRoute();
 
   type SideMenuLink = {
-    name: String
-    label: String
-    icon: String
+    name: string
+    label: string
+    icon: string
   }
 
   const sideMenu:Ref<Array<SideMenuLink>> = ref([
